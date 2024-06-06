@@ -1,0 +1,20 @@
+artifact_path: model_NMF_MovieLens-100836_rating_scale-(0.5, 5.0)
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.3
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.5.0
+mlflow_version: 2.13.2
+model_size_bytes: 3541154
+model_uuid: b4ced0295cf246cc860200386a9d7834
+run_id: 8eb460e1d0994856810b99cbbf989531
+utc_time_created: '2024-06-07 08:25:58.277054'
